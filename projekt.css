@@ -1,0 +1,52 @@
+#main{
+    margin: 8% 10% 0 10%;
+    padding: 5px;
+    background-color: blue;
+    width: 80%;
+    height: 700px;
+    display: flex;
+}
+
+#player{
+    text-align: center;
+    margin: 3% 2% 4% 2%;
+    background-color: rosybrown;
+    width: 30%;
+    height: 600px;
+}
+
+#PC{
+    text-align: center;
+    margin: 3% 2% 4% 2%;
+    background-color: rosybrown;
+    width: 30%;
+    height: 600px;
+    
+}
+
+#controls{
+    margin: 3% 2% 4% 2%;
+    background-color: rosybrown;
+    width: 30%;
+    height: 600px;
+    text-align: center;
+}
+
+.imgst{
+    margin: 20px 10px 0 10px;
+    height: 100px;
+    width: 100px;
+    border: white 2px solid;
+}
+.imgst:hover{
+    border: black 2px solid;
+}
+
+#PCimg{
+    width: 250px;
+    height: 250px;
+}
+#Playerimg{
+    width: 250px;
+    height: 250px;
+}

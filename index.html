@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projekt.css">
+    <title>projekt Jakub Solarz</title>
+</head>
+<body>
+    
+<div id="main">
+
+    <div id="player">
+        <h2>wins: <span id="won">0</span></h2>
+        <img src="img/human.png" alt="Playerimg" id="Playerimg">
+    </div>
+
+    <div id="controls">
+        <div>
+            <h2>ties: <span id="tie">0</span></h2>
+        </div>
+        <img src="img/rock.png" alt="rock" class="imgst" onclick="start('rock')">
+        <img src="img/papper.png" alt="paper" class="imgst" onclick="start('paper')">
+        <img src="img/scissors.png" alt="scissors" class="imgst" onclick="start('scissors')">
+        <h2 id="zwy"></h2>
+    </div>
+
+    <div id="PC">
+        <h2>losses: <span id="los">0</span></h2>
+        <img src="img/ia.jpg" alt="PCimg" id="PCimg">
+    </div>
+
+</div>
+
+<script src="KPNG.js"></script>
+
+</body>
+</html>
