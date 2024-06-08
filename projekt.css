@@ -1,52 +1,77 @@
+body{
+    background-color: #EBF7E3;
+}
+
 #main{
     margin: 8% 10% 0 10%;
     padding: 5px;
-    background-color: blue;
+    background-color: #66B032;
     width: 80%;
     height: 700px;
     display: flex;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #375F1B;
 }
 
 #player{
     text-align: center;
     margin: 3% 2% 4% 2%;
-    background-color: rosybrown;
+    background-color: #9BD770;
     width: 30%;
     height: 600px;
+    border-radius: 20px;
+    color: #1B3409;
 }
 
 #PC{
     text-align: center;
     margin: 3% 2% 4% 2%;
-    background-color: rosybrown;
+    background-color: #9BD770;
     width: 30%;
     height: 600px;
-    
+    border-radius: 20px;
+    color: #1B3409;
 }
 
 #controls{
     margin: 3% 2% 4% 2%;
-    background-color: rosybrown;
+    background-color: #9BD770;
     width: 30%;
     height: 600px;
     text-align: center;
+    border-radius: 20px;
+    color: #1B3409;
 }
 
 .imgst{
-    margin: 20px 10px 0 10px;
+    margin: 100px 10px 0 10px;
     height: 100px;
     width: 100px;
     border: white 2px solid;
+    border-radius: 20px;
 }
 .imgst:hover{
     border: black 2px solid;
 }
-
 #PCimg{
     width: 250px;
     height: 250px;
+    border-radius: 20px;
 }
 #Playerimg{
     width: 250px;
     height: 250px;
+    border-radius: 20px;
+}
+img{
+    margin-top: 90px;
+}
+
+h2{
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+#zwy{
+    font-size: 4.2em;
 }
